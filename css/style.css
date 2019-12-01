@@ -51,6 +51,52 @@ a.nav-link{
   color: #ffffff;
   font-size: 40px;
 }
+.container{
+  margin: 0 auto;
+}
+.photo2 img{
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 240px;
+  top: 150px;
+  width: 317px;
+  height: 254px;
+}
+.photo1 img{
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  left: 20px;
+  top: 136px;
+  width: 353px;
+  height: 264px;
+}
+.form{
+  float: right;
+  margin-right: 180px;
+  margin-top: -260px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 500px;
+  background: #737373;
+}
+.form h2{
+  margin-top: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "AA Bebas Neue";
+  font-size: 48px;
+  font-weight: normal;
+}
+.form input{
+  border: none;
+  width: 289px;
+  height: 50px;
+  background: #ffffff;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
 .preloader {
   --bg-color: #1e212a;
   --size: 200px;
