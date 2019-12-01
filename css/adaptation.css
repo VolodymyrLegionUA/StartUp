@@ -2,12 +2,66 @@
 
 /* 992-1200px */
 @media screen and (max-width: 1200px) {
-
+  .header h1{
+    margin-left: 20px;
+    font-size: 55px;
+  }
+  #Home{
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  #News{
+    font-size: 30px;
+  }
+  #Support{
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  #Sign_Up{
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  #Login{
+    margin-left: 40px;
+    font-size: 30px;
+    width: 130px;
+    height: 60px;
+  }
 }
 /* 768-992px */
 @media screen and (max-width: 992px) {
+  #Home{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #News{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  #Support{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  #Sign_Up{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  #Login{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* 576-768px */
 @media screen and (max-width: 768px) {
-
+  .header h1{
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .header h1{
+    font-size: 40px;
+  }
 }
