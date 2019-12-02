@@ -6,31 +6,24 @@
     margin-left: 20px;
     font-size: 55px;
   }
-  #Home{
-    margin-left: 40px;
+  .header ul{
     font-size: 30px;
-  }
-  #News{
-    font-size: 30px;
-  }
-  #Support{
-    margin-right: 10px;
-    font-size: 30px;
-  }
-  #Sign_Up{
-    margin-left: 40px;
-    font-size: 30px;
+    margin-top: 7px;
   }
   #Login{
-    margin-left: 40px;
     font-size: 30px;
-    width: 130px;
+    margin-top: -2px;
+    width: 120px;
     height: 60px;
+    padding-left: 0;
+    padding-left: 30px;
   }
 }
 /* 768-992px */
 @media screen and (max-width: 992px) {
   #Home{
+    margin-left: 0;
+    margin-right: 0;
     margin-left: auto;
     margin-right: auto;
   }

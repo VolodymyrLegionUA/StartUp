@@ -15,19 +15,35 @@
   font-weight: normal;
   color: #ffffff;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 a.nav-link{
   font-family: "AA Bebas Neue";
   font-weight: normal;
 }
+.collapse .navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+.header ul{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  font-size: 40px;
+  margin-top: -7px;
+}
+.header li a{
+  color: #fff;
+  margin-left: 25px;
+}
+/*
 #Home{
   margin-left: 158px;
   color: #ffffff;
   font-size: 40px;
 }
 #News{
-  margin-left: 50px;
+  margin-left: 50px;*
   color: #ffffff;
   font-size: 40px;
 }
@@ -40,14 +56,14 @@ a.nav-link{
   margin-left: 150px;
   color: #ffffff;
   font-size: 40px;
-}
+}*/
 #Login{
   background: #326363;
   width: 145px;
   height: 75px;
   border: 3px solid #ffffff;
   padding-left: 35px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   color: #ffffff;
   font-size: 40px;
 }
@@ -91,11 +107,30 @@ a.nav-link{
 }
 .form input{
   border: none;
+  margin: 0 auto;
+  background: transparent;
   width: 289px;
   height: 50px;
-  background: #ffffff;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+.form input::placeholder{
+  color: #fff;
+}
+.Sign{
+  width: 140px;
+  height: 70px;
+  background: #326363;
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 4px solid #fff;
+  font-size: 25px;
+  padding-top: 10px;
+  text-decoration: none;
+
 }
 .preloader {
   --bg-color: #1e212a;
